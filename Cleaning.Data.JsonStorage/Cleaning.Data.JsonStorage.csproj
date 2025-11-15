@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Statistics\" />
+    <ProjectReference Include="..\Cleaning.Data.Intefaces\Cleaning.Data.Intefaces.csproj" />
   </ItemGroup>
 
 </Project>

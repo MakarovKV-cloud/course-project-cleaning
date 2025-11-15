@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.CourseProjectCleaning", "UI.CourseProjectCleaning.csproj", "{5D495DFB-D67D-4C59-8FA5-AA6568DD5808}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.CourseProjectCleaning", "..\Domain.CourseProjectCleaning\Domain.CourseProjectCleaning.csproj", "{5E3D5C53-08DE-4E58-B85D-5504C0293EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleaning.Services", "..\CleaningServices\Cleaning.Services.csproj", "{D72F7AD7-0CC6-48CB-B213-753737822B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleaning.Data.Intefaces", "..\Cleaning.Data.Intefaces\Cleaning.Data.Intefaces.csproj", "{FE3C0301-0B2A-42BC-B41E-7AB4F02066EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleaning.Data.InMemory", "..\Cleaning.Data.InMemory\Cleaning.Data.InMemory.csproj", "{F15EA032-75B2-42DA-B1EC-EE72C95A699A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleaning.Data.JsonStorage", "..\Cleaning.Data.JsonStorage\Cleaning.Data.JsonStorage.csproj", "{F5C3B329-7DE1-4D09-87C0-E796116F34A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{5E3D5C53-08DE-4E58-B85D-5504C0293EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E3D5C53-08DE-4E58-B85D-5504C0293EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E3D5C53-08DE-4E58-B85D-5504C0293EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72F7AD7-0CC6-48CB-B213-753737822B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72F7AD7-0CC6-48CB-B213-753737822B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72F7AD7-0CC6-48CB-B213-753737822B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72F7AD7-0CC6-48CB-B213-753737822B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3C0301-0B2A-42BC-B41E-7AB4F02066EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3C0301-0B2A-42BC-B41E-7AB4F02066EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3C0301-0B2A-42BC-B41E-7AB4F02066EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3C0301-0B2A-42BC-B41E-7AB4F02066EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15EA032-75B2-42DA-B1EC-EE72C95A699A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15EA032-75B2-42DA-B1EC-EE72C95A699A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15EA032-75B2-42DA-B1EC-EE72C95A699A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15EA032-75B2-42DA-B1EC-EE72C95A699A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C3B329-7DE1-4D09-87C0-E796116F34A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C3B329-7DE1-4D09-87C0-E796116F34A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C3B329-7DE1-4D09-87C0-E796116F34A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C3B329-7DE1-4D09-87C0-E796116F34A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,6 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="OxyPlot.Wpf" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cleaning.Data.InMemory\Cleaning.Data.InMemory.csproj" />
+    <ProjectReference Include="..\Cleaning.Data.Intefaces\Cleaning.Data.Intefaces.csproj" />
+    <ProjectReference Include="..\Cleaning.Data.JsonStorage\Cleaning.Data.JsonStorage.csproj" />
+    <ProjectReference Include="..\CleaningServices\Cleaning.Services.csproj" />
     <ProjectReference Include="..\Domain.CourseProjectCleaning\Domain.CourseProjectCleaning.csproj" />
   </ItemGroup>
 
